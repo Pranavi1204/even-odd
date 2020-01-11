@@ -1,0 +1,13 @@
+#include<studio.h>
+void main()
+{
+     int a=20,i;
+     for(i=0;i<=a;i++)
+     {
+         if(a%2==0)
+         printf("even numbers are =%d",i);
+          else 
+         printf("odd numbers are =%d",i);
+     }
+     getch();
+}
